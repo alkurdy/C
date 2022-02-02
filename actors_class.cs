@@ -6,7 +6,7 @@ namespace actors
     class actor
     {
         // Actor instance variables.
-        private int levelNumber;
+        private int actorLevel;
         private string fName;
         private string lName;
         private DateTime birthDate;
@@ -17,11 +17,13 @@ namespace actors
         private int mainDexterity;
         private int mainConstitution;
         private int mainPerception;
+        private int actorLuck;
         private int hunger;
         private int thirst;
         private int mainBodyTemp;
         private int mainEnergy;
         private int mainFatique;
+        private int mainHygiene;
 
 
         public actor(){}
