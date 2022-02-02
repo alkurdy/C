@@ -27,12 +27,12 @@ namespace actors
         public actor(){}
         public actor(int strength, int health, string lName, string fName, DateTime birthDate = default, int age = 0)
         {
-            this.strength = strength;
-            this.health = health;
+            this.mainStrength = strength;
+            this.healthPoints = health;
             this.lName = lName;
             this.FName = fName;
             this.birthDate = birthDate;
-            this.age = age;
+            this.ageYears = age;
         }
 
         public string FName { get; set ;}
