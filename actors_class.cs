@@ -1,23 +1,30 @@
 ﻿using System;
 
+// class that implements an actor
 namespace actors
 {
     class actor
     {
+        // Actor instance variables.
+        private int levelNumber;
         private string fName;
         private string lName;
         private DateTime birthDate;
-        private int age;
-        private int health;
-        private int strength;
+        private int ageYears;
+        private int healthPoints;
+        private int mainStrength;
+        private int intelligence;
+        private int mainDexterity;
+        private int mainConstitution;
+        private int mainPerception;
         private int hunger;
         private int thirst;
-        private int bodytemp;
-        private int energy;
-        private int fatique;
+        private int mainBodyTemp;
+        private int mainEnergy;
+        private int mainFatique;
 
 
-
+        public actor(){}
         public actor(int strength, int health, string lName, string fName, DateTime birthDate = default, int age = 0)
         {
             this.strength = strength;
@@ -28,7 +35,7 @@ namespace actors
             this.age = age;
         }
 
-        public string FName { get => fName; set => fName = value; }
-        public DateTime BirthDate { get => birthDate; set => birthDate = value; }
+        public string FName { get; set ;}
+        public DateTime BirthDate { get; set;}
     }
 }
