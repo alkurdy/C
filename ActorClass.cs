@@ -1,7 +1,7 @@
 ﻿using System;
 
 // class that implements an actor
-namespace actors
+namespace actor
 {
     class actor
     {
