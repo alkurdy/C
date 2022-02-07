@@ -2,15 +2,10 @@
 
 namespace word
 {
-class word
-{
-    public string wordValue {get;set;}
-
-}
-
-class noun : word
+class noun
 { 
-    const string wordType = "noun";
+    public const string wordType = "noun";
+    public string wordValue { get; set; }
     public noun(string word)
     {
         this.wordValue = word;
@@ -18,9 +13,10 @@ class noun : word
 
 }
 
-class verb : word
+class verb
 {
     const string wordType = "verb";
+    public string wordValue { get; set; }
     public verb(string word)
     {
         this.wordValue = word;
