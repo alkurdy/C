@@ -11,5 +11,7 @@ class Program
             noun newObj = new noun("cat");
             Console.WriteLine(newObj.wordValue);
             Console.WriteLine(newObj);
+            newObj.wordValue = "dog";
+            Console.WriteLine(newObj.wordValue);
         }
 }
