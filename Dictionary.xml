@@ -1,7 +1,7 @@
 <Dictionary>
   <words>
     <word>beach</word>
-    <function>noun</function>
+    <partOfSpeech>noun</partOfSpeech>
     <Precisionlabels>
       <prec1>shore</prec1>
       <prec2>sand</prec2>
@@ -13,7 +13,7 @@
     </words>
     <words>
     <word>run</word>
-    <function>verb</function>
+    <partOfSpeech>verb</partOfSpeech>
     <power>5</power>
     <Precisionlabels>
       <prec1>move</prec1>

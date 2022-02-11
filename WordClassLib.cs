@@ -2,16 +2,22 @@
 
 namespace word
 {
-class noun
+
+class word
+{
+    public string wordValue { get; set; }
+}
+class noun : word
 { 
-    public const string wordType = "noun";
-    public string nounValue { get; set; }
-    public int nounNumber { get; set; }
+    public const string partOfSpeech = "noun";
+    public int count { get; set; }
 
     public noun(string word)
     {
-        this.nounValue = word;
+        this.wordValue = word;
     }
+
+    public string getpartOfSpeech{get {return partOfSpeech;}}
 
     static void FindWord(){}
 
@@ -19,13 +25,12 @@ class noun
 
 }
 
-class verb
+class verb : word
 {
-    const string wordType = "verb";
-    public string verbValue { get; set; }
+    const string partOfSpeech = "verb";
     public verb(string word)
     {
-        this.verbValue = word;
+        this.wordValue = word;
     }
 }
 }
