@@ -1,0 +1,23 @@
+<Dictionary>
+  <words>
+    <word>beach</word>
+    <function>noun</function>
+    <Precisionlabels>
+      <prec1>shore</prec1>
+      <prec2>sand</prec2>
+      <prec3>ocean</prec3>
+      <prec4>pebbles</prec4>
+      <prec5>water</prec5>
+      <prec6>edge</prec6>
+    </Precisionlabels>
+    </words>
+    <words>
+    <word>run</word>
+    <function>verb</function>
+    <power>5</power>
+    <Precisionlabels>
+      <prec1>move</prec1>
+      <prec2>fast</prec2>
+    </Precisionlabels>
+    </words>
+</Dictionary>

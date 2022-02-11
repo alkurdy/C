@@ -5,21 +5,27 @@ namespace word
 class noun
 { 
     public const string wordType = "noun";
-    public string wordValue { get; set; }
+    public string nounValue { get; set; }
+    public int nounNumber { get; set; }
+
     public noun(string word)
     {
-        this.wordValue = word;
+        this.nounValue = word;
     }
+
+    static void FindWord(){}
+
+
 
 }
 
 class verb
 {
     const string wordType = "verb";
-    public string wordValue { get; set; }
+    public string verbValue { get; set; }
     public verb(string word)
     {
-        this.wordValue = word;
+        this.verbValue = word;
     }
 }
 }
