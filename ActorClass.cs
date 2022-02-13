@@ -1,4 +1,5 @@
 ﻿using System;
+using word;
 
 // class that implements an actor
 namespace actor
@@ -6,7 +7,7 @@ namespace actor
     class actor
     {
         // Actor instance variables.
-
+        public string species;
         public int actorLevel { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
@@ -40,5 +41,15 @@ namespace actor
 
         public string FName { get; set ;}
         public DateTime BirthDate { get; set;}
+        public string getSpecies{get {return species;}}
+         
+    }
+
+    class Human : actor
+    {
+        public Human()
+        {
+            this.species = "human";
+        }
     }
 }
