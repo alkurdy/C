@@ -15,7 +15,7 @@ class Program
             newObj.wordValue = "dog";
             Console.WriteLine(newObj.wordValue);
             Word newWord = new Word();
-            Console.WriteLine(newWord.capitalizeWord("i"));
+            Console.WriteLine(newWord.capitalizeWord("baseball"));
 
             
         }
